@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winnie Empire Collection– Men’s Fashion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/icon.jpg" type="">
+</head>
+<body>
+  <div id="home">
+  <header class="navbar">
+    <div class="logo"><img src="images/icon.jpg" alt=""><h3>Winnie Empire <br> Collection</h3></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#prod">Products</a></li>
+        <li><a href="tel:08103140192">Contact</a></li>
+      </ul>
+    </nav>
+     <div class="cart-icon" onclick="toggleCart()">
+    🛒 <span id="cartCount">0</span>
+  </div>
+  </header>
+
+  <section class="hero">
+    <h1>Upgrade Your Style</h1>
+    <p>Explore premium men’s fashion from Winnie Empire</p>
+  </section>
+
+  <section class="filter-section">
+    <input type="text" id="searchInput" placeholder="Search products..." />
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Polo">men Polo</option>
+      <option value="Trousers">men Baggy Trousers</option>
+      <option value="Sneaker">men Sneaker</option>
+      <option value="Pam">men Pam</option>
+      <option value="Watch">men Watch</option>
+    </select>
+  </section>
+  <div id="prod">
+  <section class="product-container"></section>
+  </div>
+  <div class="cart-sidebar" id="cartSidebar">
+    <h2>Add to Cart</h2>
+    <div id="cartItems"></div>
+    <p class="cart-total">Total: ₦<span id="cartTotal">0</span></p>
+    <button onclick="checkout()">Checkout</button>
+  </div>
+  <footer>
+    <p>© 2025 Winnie Empire. All rights reserved.</p>
+  </footer>
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
