@@ -213,30 +213,3 @@ footer {
 
   }
 }
-@media (max-width: 480px) {
-  .filter-section {
-    flex-direction: column;
-    align-items: center;
-  }
-  .product-container {
-    padding: 20px;
-  }
-  .navbar{
-    flex-direction:column;
-    flex-wrap: wrap;
-  }
-  .cart-icon{
-    width: 70px;
-    margin-left: 280px;
-    margin-top: -40px;
-  }
-  .cart-sidebar{
-    width: 200px;
-    margin-top: 10.6rem;
-    height: 393px;
-  }
-  nav  ul{
-    margin-left: -40px;
-
-  }
-}
